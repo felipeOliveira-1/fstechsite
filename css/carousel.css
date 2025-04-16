@@ -15,20 +15,17 @@
     animation-play-state: paused;
 }
 
-.logo {
+/* Estilo específico para logos dentro do carrossel */
+.carousel-track .logo {
     display: inline-block;
     height: 70px;
     margin: 0 40px;
 }
 
-.logo img {
+.carousel-track .logo img {
     height: 100%;
     width: auto;
     cursor: pointer;
-}
-
-/* Aplicar o filtro apenas aos logos dentro do carrossel */
-.carousel-track .logo img {
     filter: brightness(0) invert(1); /* Torna os logos brancos */
 }
 
