@@ -25,6 +25,10 @@
     height: 100%;
     width: auto;
     cursor: pointer;
+}
+
+/* Aplicar o filtro apenas aos logos dentro do carrossel */
+.carousel-track .logo img {
     filter: brightness(0) invert(1); /* Torna os logos brancos */
 }
 
