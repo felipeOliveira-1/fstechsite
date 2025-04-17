@@ -79,7 +79,10 @@
         
         <div class="contact-form">
             <h3>Envie uma mensagem</h3>
-            <form>
+            <form action="https://formsubmit.co/contato@felipesilva.tech" method="POST">
+                <input type="hidden" name="_next" value="https://fstech.digital/obrigado.html">
+                <input type="hidden" name="_subject" value="Novo contato do site FStech">
+                <input type="hidden" name="_captcha" value="false">
                 <div class="form-group">
                     <label for="name">Nome</label>
                     <input type="text" id="name" name="name" required>
@@ -116,7 +119,8 @@
         <p>Escolha um horário conveniente para uma consulta gratuita de 30 minutos. Vamos discutir suas necessidades tecnológicas e como podemos ajudar seu negócio a crescer.</p>
         
         <div class="cal-embed">
-            <!-- Aqui será inserido o código de integração do Cal.com -->
+            <!-- Integração com Cal.com -->
+            <iframe src="https://cal.com/fstech-digital/30min" width="100%" height="600" frameborder="0"></iframe>
         </div>
     </section>
 
